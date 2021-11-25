@@ -1,3 +1,4 @@
-nama : syamsul
-usia : rahasia
+nama        : syamsul arifin
+usia        : 34 thn
+pekerjaan   :design engineering
 done
