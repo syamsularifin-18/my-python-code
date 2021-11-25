@@ -1,4 +1,5 @@
 nama        : syamsul arifin
 usia        : 34 thn
 pekerjaan   :design engineering
+sedang belajar python
 done
