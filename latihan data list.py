@@ -48,3 +48,32 @@ print("\n cra menghapus list dari belakang hanya 1 buku")
 daftar_buku.pop(-2)
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
+
+print("\nperintah menghapus list dengan del")
+daftar_buku = ["alqura'n", "iqro", "sansu", "seikatsu","kanji"]
+del daftar_buku[:]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print("\nperintah menghapus list dengan del sampai no 3/ sansu")
+daftar_buku = ["alqura'n", "iqro", "sansu", "seikatsu","kanji"]
+del daftar_buku[0:3]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print("\nperintah menghapus list dengan del no 3/ sansu")
+daftar_buku = ["alqura'n", "iqro", "sansu", "seikatsu","kanji"]
+del daftar_buku[2:3] # angka 2 sebagai index berarti alqur'an di sebut no 0, anka 3 jumlah awalnya tetep 1
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print("membuat salinan list")
+daftar_buku = ["alqura'n", "iqro", "sansu", "seikatsu","kanji"]
+daftar_buku_baru = daftar_buku[:]
+del daftar_buku[:]
+print("\ndaftar buku")
+print(daftar_buku)
+
+print("\ndaftar buku baru")
+for i in range(0,len(daftar_buku_baru)):
+    print(daftar_buku_baru[i])
