@@ -1,0 +1,3 @@
+nama : syamsul
+usia : rahasia
+done
